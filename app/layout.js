@@ -4,7 +4,7 @@ import './globals.css'
 const poppins = Poppins({ subsets: ['latin'], weight: ['200', '400', '600', '800'] })
 
 export const metadata = {
-  title: 'Unriddle | AI',
+  title: '| AI',
   description: 'Next generation AI',
 }
 
