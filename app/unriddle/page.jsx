@@ -37,7 +37,7 @@ export default function UnriddlePage() {
   };
 
   return (
-    <main className="py-2 px-4 bg-black w-full h-screen text-black">
+    <main className="py-2 px-4 bg-white w-full h-screen text-black">
       <div className="hidden md:block">
         <Sidebar />
       </div>
@@ -50,7 +50,7 @@ export default function UnriddlePage() {
             <FaBars size={22} className="text-black" />
           </button>
         </div>
-        <div>New Chart</div>
+        <div className="text-black">New Chart</div>
         <div>
           <button>
             <AiOutlinePlus size={22} className="text-black" />
