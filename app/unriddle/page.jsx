@@ -97,7 +97,7 @@ export default function UnriddlePage() {
           className="flex flex-col lg:px-38 justify-center items-center"
           id="article"
         >
-          <div className="chat-container lg:absolute lg:top-9 lg:right-0">
+          <div className="chat-container md:ml-80">
             {chatHistory.map((chat, index) => (
               <ChatBubble key={index} text={chat.text} isUser={chat.isUser} />
             ))}
