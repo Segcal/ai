@@ -30,7 +30,7 @@ export default function Navbar() {
             <Signup />
           </Link>
           <Link
-            href="/unriddle"
+            href="/ai"
             className="bg-black text-white transform transition-transform duration-300 hover:scale-110 ease-in-out px-3 py-2 rounded-lg"
           >
             Get Started

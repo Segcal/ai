@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from "react";
 import Sidebar from "../components/utility/Sidebar";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaLocationArrow } from "react-icons/fa";
 import { AiOutlinePlus } from "react-icons/ai";
 import { BsArrowReturnRight } from "react-icons/bs";
 import axios from "axios";
@@ -65,7 +65,7 @@ export default function UnriddlePage() {
   };
 
   return (
-    <main className="py-2 px-4 bg-blue-50  text-black flex flex-col justify-center items-center">
+    <main className="py-2 px-4 bg-gray-50 text-black flex flex-col justify-center items-center">
       <div className="hidden md:block">
         <Sidebar />
       </div>
@@ -131,18 +131,18 @@ export default function UnriddlePage() {
         </div>
       )}
 
-      <div className="flex items-center justify-center lg:absolute bottom-9 lg:w-[42vw] w-full outline-none mt-36">
+      <div className="flex items-center justify-center bg-gray-100 rounded-lg lg:absolute bottom-9 lg:w-[42vw] w-full outline-none mt-36">
         <input
           type="text"
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
-          className="px-3 ml-4 py-2 rounded text-black focus:outline-none transform transition-transform duration-300 hover:scale-110 ease-in-out bg-gray-400 w-full "
+          className="px-3 ml-4 py-2 rounded text-black focus:outline-none bg-gray-100 w-full "
         />
         <button
           onClick={handleQuestionSubmission}
-          className="bg-blue-300/10 py-2 ml-8 rounded-e-md px-3 "
+          className=" py-2 ml-8 rounded-e-md px-3 "
         >
-          <BsArrowReturnRight size={25} />
+          <FaLocationArrow size={25} className="text-gray-400"/>
         </button>
       </div>
     </main>
