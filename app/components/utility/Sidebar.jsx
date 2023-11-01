@@ -7,10 +7,10 @@ import { BsChatLeft, BsFillPersonFill, BsThreeDots } from 'react-icons/bs';
 export default function Sidebar() {
   return (
     <>
-      <main className="fixed top-0 z-10 left-0 bg-gray-800 text-white h-screen w-[20rem]">
+      <main className="fixed top-0 z-10 left-0 bg-gray-400/95 text-black h-screen w-[20rem]">
         <div className="px-3 py-4">
           <Link
-            href="#"
+            href="/"
             className="flex gap-2 text-center py-3 px-3 rounded-md justify-center items-center"
           >
             <div>
@@ -30,7 +30,7 @@ export default function Sidebar() {
           </div>
           <Link
             href="#"
-            className="flex gap-4 py-3 px-3 rounded-md justify-start items-center"
+            className="flex gap-4  justify-start items-center bg hover:bg-black/60 hover:text-white transform transition-transform duration-300 hover:scale-110 ease-in-out px-3 py-2 rounded-lg"
           >
             <div>
               <BsChatLeft size={22} />
@@ -43,7 +43,7 @@ export default function Sidebar() {
           </Link>
           <Link
             href="#"
-            className="flex gap-4 py-3 px-3 rounded-md justify-start items-center"
+            className="flex gap-4  justify-start my-4 items-center bg hover:bg-black/60 hover:text-white transform transition-transform duration-300 hover:scale-110 ease-in-out px-3 py-2 rounded-lg"
           >
             <div>
               <BsChatLeft size={22} />
@@ -56,7 +56,7 @@ export default function Sidebar() {
           </Link>
           <Link
             href="#"
-            className="flex w-full gap-4 py-3 px-3 rounded-md justify-start items-center"
+            className="flex gap-4  justify-start items-center bg hover:bg-black/60 hover:text-white transform transition-transform duration-300 hover:scale-110 ease-in-out px-3 py-2 rounded-lg"
           >
             <div>
               <BsChatLeft size={22} />
@@ -75,7 +75,7 @@ export default function Sidebar() {
           </div>
           <Link
             href="#"
-            className="flex gap-4 py-3 px-3 rounded-md justify-start items-center"
+            className="flex gap-4  justify-start items-center bg hover:bg-black/60 hover:text-white transform transition-transform duration-300 hover:scale-110 ease-in-out px-3 py-2 rounded-lg"
           >
             <div>
               <BsChatLeft size={22} />
@@ -88,7 +88,7 @@ export default function Sidebar() {
           </Link>
           <Link
             href="#"
-            className="flex gap-4 py-3 px-3 rounded-md justify-start items-center"
+            className="flex gap-4  justify-start items-center bg hover:bg-black/60 hover:text-white transform transition-transform duration-300 hover:scale-110 my-4 ease-in-out px-3 py-2 rounded-lg"
           >
             <div>
               <BsChatLeft size={22} />
@@ -101,7 +101,7 @@ export default function Sidebar() {
           </Link>
           <Link
             href="#"
-            className="flex w-full gap-4 py-3 px-3 rounded-md justify-start items-center"
+            className="flex gap-4  justify-start items-center bg hover:bg-black/60 hover:text-white transform transition-transform duration-300 hover:scale-110 ease-in-out px-3 py-2 rounded-lg"
           >
             <div>
               <BsChatLeft size={22} />

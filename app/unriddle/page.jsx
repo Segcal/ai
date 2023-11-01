@@ -65,7 +65,7 @@ export default function UnriddlePage() {
   };
 
   return (
-    <main className="py-2 px-4 bg-white  text-black flex flex-col justify-center items-center">
+    <main className="py-2 px-4 bg-blue-50  text-black flex flex-col justify-center items-center">
       <div className="hidden md:block">
         <Sidebar />
       </div>
@@ -109,21 +109,21 @@ export default function UnriddlePage() {
             <h1 className="text-black text-4xl text-center mt-24">AI..</h1>
           </div>
           <div className="flex gap-2 flex-col w-full lg:w-[42vw] lg:flex-row mt-24">
-            <div className="border border-white py-3 w-full rounded-lg px-12">
+            <div className="border border-white transform transition-transform duration-300 hover:scale-110 ease-in-out py-3 w-full rounded-lg px-12">
               <h3 className="font-semibold">Give me Idea</h3>
               <p>For what to do with my kids' art</p>
             </div>
-            <div className="border border-white py-3 w-full rounded-lg px-12">
+            <div className="border border-white py-3 w-full transform transition-transform duration-300 hover:scale-110 ease-in-out rounded-lg px-12">
               <h3 className="font-semibold">Write a text</h3>
               <p>For what to give blessing</p>
             </div>
           </div>
-          <div className=" gap-2 hidden lg:flex flex-col w-full lg:w-[42vw] lg:flex-row mt-8">
+          <div className=" gap-2 hidden lg:flex transform transition-transform duration-300 hover:scale-110 ease-in-out flex-col w-full lg:w-[42vw] lg:flex-row mt-8">
             <div className="border border-white py-3 w-full rounded-lg px-12">
               <h3 className="font-semibold">Give me Idea</h3>
               <p>For what to do with my kids' art</p>
             </div>
-            <div className="border border-white py-3 w-full rounded-lg px-12">
+            <div className="border border-white transform transition-transform duration-300 hover:scale-110 ease-in-out py-3 w-full rounded-lg px-12">
               <h3 className="font-semibold">Write a text</h3>
               <p>For what to give blessing</p>
             </div>
@@ -136,11 +136,11 @@ export default function UnriddlePage() {
           type="text"
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
-          className="px-3 py-2 rounded text-black bg-gray-400 w-full"
+          className="px-3 ml-4 py-2 rounded text-black focus:outline-none transform transition-transform duration-300 hover:scale-110 ease-in-out bg-gray-400 w-full "
         />
         <button
           onClick={handleQuestionSubmission}
-          className="bg-blue-300/10 py-2 rounded-e-md px-3"
+          className="bg-blue-300/10 py-2 ml-8 rounded-e-md px-3 "
         >
           <BsArrowReturnRight size={25} />
         </button>
